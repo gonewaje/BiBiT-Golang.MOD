@@ -1,0 +1,12 @@
+# ping 
+# GET http://localhost:8080/ping
+
+# api/trx
+POST http://localhost:8080/api/trx
+content-type: application/json
+
+{
+    "account_number": "111001",
+    "amount": 100,
+    "trx_type": "DEP"
+}
