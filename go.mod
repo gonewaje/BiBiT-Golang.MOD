@@ -1,4 +1,4 @@
-module trx
+module bibit
 
 go 1.20
 
