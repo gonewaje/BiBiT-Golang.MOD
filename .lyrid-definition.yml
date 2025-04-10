@@ -1,8 +1,8 @@
-name: HALO_DUNIA
+name: BiBiT-Golang
 description: App Description
 ignoreFiles: .git
 modules:
-- name: YOUR_MODULE_NAME
+- name: MOD
   language: go1.x
   description: Module description
   functions:
