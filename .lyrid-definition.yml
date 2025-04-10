@@ -1,0 +1,11 @@
+name: HALO_DUNIA
+description: App Description
+ignoreFiles: .git
+modules:
+- name: YOUR_MODULE_NAME
+  language: go1.x
+  description: Module description
+  functions:
+  - name: FUNCTION
+    entry: entry.go
+    description: the entry point for the function
