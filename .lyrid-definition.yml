@@ -6,6 +6,6 @@ modules:
   language: go1.x
   description: Module description
   functions:
-  - name: FUNCTION
-    entry: entry.go
+  - name: handler
+    entry: hello.go
     description: the entry point for the function
