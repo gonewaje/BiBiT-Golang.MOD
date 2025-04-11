@@ -24,8 +24,6 @@ func main() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/ping", handler.Ping)
-	mux.HandleFunc("/api/trx", handler.Trx)
-	mux.Handle("/metrics", promhttp.Handler())
 	mux.HandleFunc("/", handler.HelloServer)
 
 	handler := cors.Default().Handler(mux)
